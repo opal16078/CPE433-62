@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/bin/Debug/netcoreapp2.0/DNWS.dll",
+            "program": "${workspaceRoot}/bin/Debug/netcoreapp3.1/DNWS.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "externalConsole": false,
@@ -17,7 +17,7 @@
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach",
-            "processId": "${command.pickProcess}"
+            "processId": "${command:pickProcess}"
         }
     ]
 }
