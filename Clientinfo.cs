@@ -13,7 +13,6 @@ namespace DNWS
 
     public void PreProcessing(HTTPRequest request)
     {
-      throw new NotImplementedException();
     }
 
     public HTTPResponse GetResponse(HTTPRequest request)

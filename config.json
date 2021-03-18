@@ -22,9 +22,9 @@
             "Postprocessing" :"false" 
         },
         {
-            "Path" : "Clientinfo",
-            "Class" : "DNWS.Clientinfo",
-            "Preprocessing" : "true",
+            "Path" : "pm25",
+            "Class" : "DNWS.PM25Plugin",
+            "Preprocessing" : "false",
             "Postprocessing" :"false" 
         }
     ]
