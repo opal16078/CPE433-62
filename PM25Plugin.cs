@@ -67,6 +67,7 @@ namespace DNWS
             sb.Append("PM10 : " + pm25reading.data.iaqi.pm10.v + "<br />");
             sb.Append("</body></html>");
             
+            //Here HW3
             // Encode the json.
             String reading = JsonSerializer.Serialize(pm25reading);    
             response = new HTTPResponse(200);
